@@ -1,15 +1,19 @@
 html {
-    background-color: rgba(67, 18, 173, 0.915);
+    background-image: linear-gradient(to bottom, rgba(90, 46, 185, 0.915), rgba(5, 7, 101, 0.882))
 }
 
 header {
     text-align: center;
-    color: black;
+    color:rgba(22, 147, 22, 0.696);
+    border-style: outset;
+    border-color:rgba(67, 18, 173, 0.915);
+    border-radius: 80%;
 }
 
 h1 {
+    font-size: 50px;
     text-align: center;
-    color: blue;
+    color: rgba(22, 147, 22, 0.696);
 }
 
 h2 {
@@ -22,6 +26,10 @@ ul {
     border-radius: 10px;
 }
 
+a {
+    color: green;
+}
+
 section {
     border-style: outset;
     border-radius: 50%;
@@ -31,5 +39,8 @@ section {
 }
 
 * {
+    color:rgba(22, 147, 22, 0.696);
+    font-size: 20px;
     font-family:'Courier New', Courier, monospace
+    
 }
